@@ -2,9 +2,9 @@ import os
 from pyrogram import Client
 from os import mkdir
 
-app_id = int(os.environ.get("API_ID", 12345))
-app_key = os.environ.get('API_HASH')
-token = os.environ.get('BOT_TOKEN')
+app_id = "13593326"
+app_key = "36366cef731c918dd557ac681e3fe993"
+token = "5540803208:AAGPp7Cn5h9fjHUt2_JrhozG5ZxuP_PeJOs"
 
 app = Client("zipBot", app_id, app_key, bot_token=token)
 
